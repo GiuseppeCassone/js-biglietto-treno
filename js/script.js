@@ -26,5 +26,5 @@ if (age > 64) {
     basePrice = (basePrice * 0.40)
 }
 
-document.getElementById(`finalPrice`).innerHTML = basePrice;
+document.getElementById(`finalPrice`).innerHTML = `Il prezzo del tuo biglietto è di ${basePrice.toFixed(2)}`;
 
