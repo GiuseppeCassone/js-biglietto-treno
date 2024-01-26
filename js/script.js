@@ -12,11 +12,11 @@ document.getElementById(`km`).innerHTML = distance;
 
 let basePrice = distance * 0.21;
 
-const age = prompt("Quanti anni hai?")
+const age = prompt("Quanti anni hai?");
 
 document.getElementById(`age`).innerHTML = age;
 
-if (!isNaN(age) && Number.isInteger(Number(age)) && (age>0 && age < 110) && !isNaN(distance) && Number.isInteger(Number(distance)) && (distance > 0)){
+if (!isNaN(age) && Number.isInteger(Number(age)) && (age > 0 && age < 110) && !isNaN(distance) && Number.isInteger(Number(distance)) && distance > 0){
     
     if (age < 18) {
     
